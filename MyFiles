@@ -1,2 +1,6 @@
 Finding max, min, avg salary an  tot employees
 SELECT MIN(SALARY) MINIUM_SAL, MAX(SALARY) MAXIUM_SAL, ROUND(AVG(SALARY),2) AVG_SAL, SUM(SALARY), COUNT(*) NO_OF_EMP FROM EMPLOYEES;
+
+comment
+---------
+This query work both in sql server and oracle
